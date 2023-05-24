@@ -1,0 +1,18 @@
+@import '../../sass/utils/mixin';
+
+.header {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  color: var(--primaryTextColor);
+
+  @include mq(tab) {
+    color: var(--accentColor);
+  }
+
+  @include mq(desk) {
+    color: var(--backgroundAccentColor);
+  }
+}
