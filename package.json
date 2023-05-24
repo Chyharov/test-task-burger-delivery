@@ -1,8 +1,8 @@
 {
-  "name": "test-task-finance-ledger",
+  "name": "test-task-burger-delivery",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://chyharov.github.io/test-task-finance-ledger/",
+  "homepage": "https://chyharov.github.io/test-task-burger-delivery/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",
