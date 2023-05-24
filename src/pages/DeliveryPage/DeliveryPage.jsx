@@ -1,5 +1,8 @@
-import { mcDonalds } from '../../services/mcDonalds';
-import McDonaldsList from '../../components/McDonaldsList/McDonaldsList'
+// import { mcDonalds } from '../../services/mcDonalds';
+// import McDonaldsList from '../../components/McDonaldsList/McDonaldsList'
+
+import { KFC } from 'services/KFC';
+import KFCList from 'components/KFCList/KFCList';
 import s from './DeliveryPage.module.scss'
 
 function BurgerPage({ handleAddToCart, handleRemoveFromCart, getCartItemQuantity }) {
@@ -7,8 +10,7 @@ function BurgerPage({ handleAddToCart, handleRemoveFromCart, getCartItemQuantity
   return (
     <section className={s.section__burgerPage}>
       
-      <McDonaldsList mcDonalds={mcDonalds} handleAddToCart={handleAddToCart} handleRemoveFromCart={handleRemoveFromCart} getCartItemQuantity={getCartItemQuantity} />
-      
+      <KFCList KFC={KFC} handleAddToCart={handleAddToCart} handleRemoveFromCart={handleRemoveFromCart} getCartItemQuantity={getCartItemQuantity} />
       
     </section>
   );
@@ -16,5 +18,6 @@ function BurgerPage({ handleAddToCart, handleRemoveFromCart, getCartItemQuantity
 
 export default BurgerPage;
 
-{/* <KFCList mcDonalds={mcDonalds} handleAddToCart={handleAddToCart} handleRemoveFromCart={handleRemoveFromCart} getCartItemQuantity={getCartItemQuantity} />
-      <BurgerKingList mcDonalds={mcDonalds} handleAddToCart={handleAddToCart} handleRemoveFromCart={handleRemoveFromCart} getCartItemQuantity={getCartItemQuantity} /> */}
+
+      // <BurgerKingList mcDonalds={mcDonalds} handleAddToCart={handleAddToCart} handleRemoveFromCart={handleRemoveFromCart} getCartItemQuantity={getCartItemQuantity} />
+      // <McDonaldsList mcDonalds={mcDonalds} handleAddToCart={handleAddToCart} handleRemoveFromCart={handleRemoveFromCart} getCartItemQuantity={getCartItemQuantity} />

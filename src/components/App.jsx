@@ -3,7 +3,7 @@ import { Routes, Route, Navigate } from 'react-router-dom';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Spinner from './Spinner/Spinner';
-const Header = lazy(() => import('./Header/Header'));
+const header = lazy(() => import('./header/header'));
 const DeliveryPage = lazy(() => import('pages/DeliveryPage/DeliveryPage'));
 const CartPage = lazy(() => import('pages/CartPage/CartPage'));
 const HomePage = lazy(() => import('pages/HomePage/HomePage'));

@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { BsCartFill } from "react-icons/bs";
 import Logo from '../Logo/Logo'
-import s from './Header.module.scss'
+import s from './header.module.scss'
 
 
 function Header({cartItemCount}) {
