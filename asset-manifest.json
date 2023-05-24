@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/test-task-burger-delivery/static/css/main.547ffcbb.css",
+    "main.js": "/test-task-burger-delivery/static/js/main.6c39d93c.js",
+    "static/media/OpenSans-Regular.ttf": "/test-task-burger-delivery/static/media/OpenSans-Regular.77c09223204154ae8d43.ttf",
+    "static/media/OpenSans-SemiBold.ttf": "/test-task-burger-delivery/static/media/OpenSans-SemiBold.2f17aae884058c5a85df.ttf",
+    "index.html": "/test-task-burger-delivery/index.html",
+    "main.547ffcbb.css.map": "/test-task-burger-delivery/static/css/main.547ffcbb.css.map",
+    "main.6c39d93c.js.map": "/test-task-burger-delivery/static/js/main.6c39d93c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.547ffcbb.css",
+    "static/js/main.6c39d93c.js"
+  ]
+}
