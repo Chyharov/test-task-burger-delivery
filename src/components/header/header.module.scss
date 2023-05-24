@@ -1,18 +1,57 @@
 @import '../../sass/utils/mixin';
 
 .header {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 40px;
-  color: var(--primaryTextColor);
+  width: 100%;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+  backdrop-filter: blur(10px);
+  box-shadow: 0px 2px 4px 0px #888;
+
+ &--active {
+    composes: header;
+  }
+}
+
+.navList {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    @include mq(tab) {
+      padding-right: 75px;
+      padding-left: 75px;
+    }
+}
+
+.cartLogo {
+    width: 30px;
+    height: 30px;   
+}
+
+.navList__itemCart {
+  border-radius: 15px;
+  color: var(--secondaryTextColor);
+  background-color: var(--buttonColor);
+  padding: 7px;
 
   @include mq(tab) {
-    color: var(--accentColor);
+    padding: 10px;
   }
 
   @include mq(desk) {
-    color: var(--backgroundAccentColor);
+    padding: 15px;
   }
+}
+
+.navList__itemCart:hover {
+  color: var(--buttonColor);
+  background-color: var(--secondaryTextColor);
+  outline: 1px solid var(--buttonColor);;
 }

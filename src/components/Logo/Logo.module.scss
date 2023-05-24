@@ -1,0 +1,35 @@
+@import '../../sass/utils/mixin';
+
+.logo__Container {
+    font-family: 'Open Sans Regular';
+    font-size: 17px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--buttonColor);
+    color: var(--secondaryTextColor);
+    padding: 7px;
+    border-radius: 15px;
+
+    @include mq(tab) {
+        font-size: 22px;
+        padding: 10px;
+    }
+
+    @include mq(desk) {
+        font-size: 25px;
+        padding: 15px;
+    }
+}
+
+.logo__Container:hover {
+    color: var(--buttonColor);
+    background-color: var(--secondaryTextColor);
+    outline: 1px solid var(--buttonColor);
+  }
+
+.logo__Header {
+    margin-right: 5px;
+    width: 30px;
+    height: 30px;
+}
